@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+.App button{
+  background-color: white;
+  color:blue;
+  min-width: 300px;
+  font-size: 1.8em;
+}
+.App button:hover{
+  color:white;
+  background-color: blue;
+  transform: scale(1.2) ;
+  
+}
+ .App h1:hover{
+  color:blue;
+  transform:translateY(-10px);
+  
+}
+.App .cards-grid{
+  margin :20px auto;
+  max-width: 80%;
+  
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
