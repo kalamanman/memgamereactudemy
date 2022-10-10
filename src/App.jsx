@@ -3,15 +3,8 @@ import { useState,useEffect } from 'react'
 import './App.css'
 //import components
 import SingleCard from './components/SingleCard'
-const cardImages =[
-  {src:'/img/al-1.png'},
-  {src:'/img/ah-1.png'},
-  {src:'/img/ad-1.png'},
-  {src:'/img/kal-1.png'},
-  {src:'/img/ta-1.png'},
-  {src:'/img/na-1.png'},
-]
-const card3Images=[
+
+const cardImages=[
 {src:'/img/helmet-1.png'},{src:'/img/potion-1.png'},
 {src:'/img/sword-1.png'},{src:'/img/ring-1.png'},{src:'/img/scroll-1.png'},
 {src:'/img/shield-1.png'}
